@@ -37,7 +37,7 @@ var sea = {
 	title: "sea",
 	pos: 5,
 	label: ["sea", "ocean", "beach", "waves", "wave", "beaches", "oceans", "shores", "shore"],
-	links: ['xGRjCa49C6U',"A2_yg19Pu7Y","xGRjCa49C6U","qREKP9oijWI","lxNXf9fBv0g","jKCyFB5LmPo", "mMhd7UZY9qw", "qPTJIqGHOXM","RNwQn5T0wRs"],
+	links: ['xGRjCa49C6U',"A2_yg19Pu7Y","qREKP9oijWI","lxNXf9fBv0g","jKCyFB5LmPo", "mMhd7UZY9qw", "qPTJIqGHOXM","RNwQn5T0wRs"],
 };
 
 var mountain = {
@@ -93,12 +93,12 @@ var warren = {
 	title: "warren",
 	pos: 1,
 	label: ["warren"],
-	links:["http://<Raspi-Ip>:8000/index.html"]
+	links:["http://100.80.228.103:8000/index.html"]
 	//links: ["https://www.youtube.com/embed/live_stream?channel=UCg-TVviuPoXtVuexbFwAL9Q&controls=0&autoplay=1&mute=1" ],
 };
 
-var videos = [fuji, nyc, snow, earth, coral, sea, mountain, river, night, jungle, forrest, grass, waterfall, warren];
-var liveVideos = [];
+var videos = [fuji, nyc, snow, earth, coral, sea, mountain, river, night, jungle, forrest, grass, waterfall];
+var liveVideos = [warren];
 var printTitle = function(title){
 	console.log(title.label);
 }
